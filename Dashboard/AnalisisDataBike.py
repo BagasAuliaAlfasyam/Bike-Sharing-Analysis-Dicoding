@@ -18,7 +18,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     # Load the actual data file
-    day_data = pd.read_csv("main_data.csv")
+    day_data = pd.read_csv("./Dashboard/main_data.csv")
     
     # Convert date column to datetime
     day_data['dteday'] = pd.to_datetime(day_data['dteday'])
