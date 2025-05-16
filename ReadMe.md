@@ -1,4 +1,3 @@
----
 
 # Dicoding Dashboard
 
@@ -45,5 +44,3 @@ If there are other issues, check the error log and make sure you're in the corre
 ```sh
 conda info --envs
 ```
-
----
