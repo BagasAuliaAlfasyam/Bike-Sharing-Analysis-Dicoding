@@ -1,29 +1,31 @@
+---
+
 # Dicoding Dashboard
 
 ## Setup Environment
 
-Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan Streamlit Dashboard:
+Follow these steps to set up the environment and run the Streamlit Dashboard:
 
-### 1. Buat dan Aktifkan Virtual Environment (Conda)
+### 1. Create and Activate Virtual Environment (Conda)
 
-Jika menggunakan **Conda**, jalankan perintah berikut di terminal:
+If you're using **Conda**, run the following commands in your terminal:
 
 ```sh
 conda create --name py39 python=3.9
 conda activate py39
 ```
 
-### 2. Instalasi Dependensi
+### 2. Install Dependencies
 
-Setelah environment aktif, install dependensi yang diperlukan dengan:
+Once the environment is active, install the required dependencies with:
 
 ```sh
 pip install pandas numpy matplotlib seaborn streamlit plotly scikit-learn statsmodels
 ```
 
-### 3. Menjalankan Streamlit
+### 3. Run Streamlit
 
-Setelah semua dependensi terinstal, jalankan Streamlit dengan perintah berikut:
+After all dependencies are installed, run Streamlit with the following command:
 
 ```sh
 streamlit run Dashboard/AnalisisDataBike.py
@@ -31,15 +33,17 @@ streamlit run Dashboard/AnalisisDataBike.py
 
 ## Troubleshooting
 
-Jika mengalami error **ModuleNotFoundError**, pastikan semua dependensi telah terinstal dengan benar. Jika masih mengalami masalah, coba jalankan:
+If you encounter a **ModuleNotFoundError**, make sure all dependencies are properly installed. If issues persist, try running:
 
 ```sh
 pip install --upgrade pip
-pip install -r requirements.txt  # Jika tersedia
+pip install -r requirements.txt  # If available
 ```
 
-Jika ada kendala lain, periksa error log dan pastikan Anda berada di dalam environment yang benar dengan:
+If there are other issues, check the error log and make sure you're in the correct environment by running:
 
 ```sh
 conda info --envs
 ```
+
+---
